@@ -5,7 +5,7 @@ from random import randint as rnd
 
 
 def create_list(number):
-    list_start = [rnd(10, 100) for x in range(number)]
+    list_start = [rnd(10, 99) for x in range(number)]
     return list_start
 
 
